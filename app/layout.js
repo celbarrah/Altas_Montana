@@ -23,9 +23,9 @@ export const metadata = {
     locale: "fr_BE",
     type: "website",
     icons: {
-    icon: "/favicon.png",       // main icon
-    shortcut: "/favicon.png",   // for shortcut/favicon
-    apple: "/favicon.png",      // iOS home screen
+    icon: "/favicon.png",       
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",     
   },
   },
 };
