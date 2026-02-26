@@ -3,6 +3,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: "Anticiper le Coût des Obsèques en Belgique | Assurance Décès Plus",
+  description:
+    "Inflation des frais funéraires, contrats non indexés, démarches complexes : informez-vous et mettez en place une protection claire pour vos proches.",
+  openGraph: {
+    title: "Les Coûts des Obsèques : Une Réalité Sous-Estimée",
+    description:
+      "Comprendre aujourd’hui pour protéger demain. Découvrez pourquoi anticiper les frais d’obsèques est essentiel pour votre famille.",
+    url: "https://assurancedecesplus.be/couts-obseques",
+    siteName: "Assurance Décès Plus",
+    locale: "fr_BE",
+    type: "website",
+  },
+};
 const page = () => {
   return (
     <>

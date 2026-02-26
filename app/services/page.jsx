@@ -3,6 +3,21 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: "Nos Services | Protection Décès & Maladies Graves – Assurance Décès Plus",
+  description:
+    "Des solutions pensées pour accompagner les familles en Belgique : assistance obsèques, soutien administratif et protection financière avec un accompagnement humain.",
+  openGraph: {
+    title: "Services de Protection Familiale – Assurance Décès Plus",
+    description:
+      "Soulagez vos proches avec des solutions simples : Assistance Obsèques et Vital Cares pour les maladies graves.",
+    url: "https://assurancedecesplus.be/services",
+    siteName: "Assurance Décès Plus",
+    locale: "fr_BE",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <>

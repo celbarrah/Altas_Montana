@@ -3,6 +3,21 @@ import ClientxForm from '@/components/form'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title: "Contactez Assurance Décès Plus",
+  description:
+    "Nous sommes à votre écoute pour vous accompagner et répondre à toutes vos questions en toute simplicité.",
+  openGraph: {
+    title: "Besoin d’Informations ? Contactez-Nous",
+    description:
+      "Un conseiller vous répond rapidement pour vous accompagner dans votre démarche, sans engagement.",
+    url: "https://assurancedecesplus.be/contact",
+    siteName: "Assurance Décès Plus",
+    locale: "fr_BE",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <>
