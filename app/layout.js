@@ -23,9 +23,9 @@ export const metadata = {
     locale: "fr_BE",
     type: "website",
     icons: {
-    icon: "/favicon.png",       
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",     
+    icon: "/favicon.ico",       
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",     
   },
   },
 };

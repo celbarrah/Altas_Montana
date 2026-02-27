@@ -21,7 +21,7 @@ const page = () => {
   return (
     <>
      <ServiceHero classe={"prob_bg"} title={<>PROBLÉMATIQUE <br /> DES COÛTS OBSÈQUES</>} subtitle={"Les coûts des obsèques : une réalité souvent sous-estimée"} descrip={"Lorsqu’un décès survient, les proches doivent faire face à une douleur immense… et souvent à des frais imprévus."} btn={false} />
-       <section className='service_shape h-300 md:h-250 flex justify-center items-center relative z-10 bottom-40 md:bottom:30 xl:bottom-60 px-4 md:px-15 xl:px-32'>
+       <section className='service_shape h-250 md:h-300 flex justify-center items-center relative z-10 bottom-40 md:bottom:30 xl:bottom-60 px-4 md:px-15 xl:px-32'>
              <nav className='grid grid-cols-1 md:grid-cols-2 gap-2 h-[70%] lg:h-[45%]'>
                  <div className='flex flex-col gap-2 md:gap-8 justify-center'> 
                      <h1 className='font-extrabold text-3xl text-[#16553C]'>COMBIEN COÛTENT DES OBSÈQUES ?</h1>
@@ -36,6 +36,20 @@ const page = () => {
                     <p className='text-[18px] w-[90%]'>Ces montants doivent souvent être avancés très rapidement par les proches.</p>
                  </div>
                  <div className='w-full h-full graph rounded-2xl' />
+                 <div className='py-5 md:py-12 col-span-2 flex justify-center items-center px-1 md:px-20 xl:px-32'>
+                   <div className='space-y-3'>
+                        <p>En 1978, les coûts des obsèques étaient évalués à environ <span className='font-bold'>919 €</span>.
+                        Tous les 10 ans, nous constatons une augmentation moyenne de <span className='font-bold'>+6,4 % par an</span>.
+                        </p>
+                        <ul className='list-disc pl-2 md:pl-9'>
+                            <li>En <span className='font-bold'>1988</span>, les coûts sont passés à <span className='font-bold'>1 819 € (+98 %)</span></li>
+                            <li>En <span className='font-bold'>1998</span>, les coûts sont passés à <span className='font-bold'>2 495 € (+37 %)</span></li>
+                            <li>En <span className='font-bold'>2008</span>, les coûts sont passés à <span className='font-bold'>3 915 € (+57 %)</span></li>
+                        </ul>
+                        <p>Soit une moyenne d’environ <span className='font-bold'>+64 % tous les 10 ans</span>, correspondant à <span className='font-bold'>+6,4 % par an</span>.</p>
+                        <p><span className='font-bold'>Si cette tendance se poursuit</span>, les coûts des obsèques en <span className='font-bold'>2038</span> seront estimés entre <span className='font-bold'>12 000 € et 21 000 €</span></p>
+                   </div>
+                 </div>
              </nav>
              <section className='h-auto md:h-110 absolute z-10 -bottom-50 left-1/2 -translate-x-1/2 w-[95%] md:w-[85%] xl:w-[75%]'>
               <nav className="grid grid-cols-1 gap-4 h-full relative py-6">
