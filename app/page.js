@@ -14,7 +14,9 @@ export default function Home() {
     <About />
     <Services />
     <Contact />
-    <Client />
+    <div className="w-[95%] md:w-[85%] m-auto">
+      <Client />
+    </div>
     <Reviews />
    </>
   );

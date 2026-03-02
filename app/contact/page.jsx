@@ -26,22 +26,6 @@ const page = () => {
             <h1 className='font-extrabold text-2xl text-[#16553C]'>Contactez-nous en toute simplicité</h1>
             <p className='text-black/50'>Une question, un doute, ou simplement besoin d’être rassuré(e) ? <br /> Nous sommes là pour vous écouter.</p>
         </div>
-        {/* <nav className='h-auto pb-7 bg-[#16553C]/30 w-full mt-2 flex flex-col items-center gap-4 pt-5'>
-          <div className='w-[40%] h-16 rounded-full bg-[#16553C] flex items-center gap-3 pl-4'>
-            <Image src={"/phone_white.png"} alt='phone' width={30} height={30} />
-            <h2 className='font-extrabold text-xl text-white'>+32 493 99 51 37</h2>
-            <p className='text-white/50'>Du lundi au vendredi — 9h à 18h</p>
-          </div>
-           <div className='w-[40%] h-16 rounded-full bg-[#16553C] flex items-center gap-3 pl-4'>
-            <Image src={"/email_white.png"} alt='phone' width={30} height={30} />
-            <h2 className='font-extrabold text-xl text-white'>info@assurancedecesplus.be</h2>
-          </div>
-          <nav className='mt-10 w-full text-center'>
-            <h1 className='font-extrabold text-3xl text-[#16553C]'>Être contacté(e) par un courtier</h1>
-            <ClientxForm />
-            <p className='text-center font-bold'>Vos données restent confidentielles. <br /> Aucun engagement.</p>
-          </nav>
-        </nav> */}
         <nav className='w-full flex flex-col items-center justify-center'>
             <div className='w-[90%] md:w-[70%] xl:w-[50%] bg-[#F4F3F3] rounded-3xl h-auto md:h-30 p-5 md:p-0 relative top-9 grid grid-cols-1 md:grid-cols-2 items-center gap-2'>
                 <Image src={"/logo2.png"} alt='logo' width={150} height={100} className='border-b-2 md:border-b-0 border-r-0 md:border-r-2 border-black/50 w-[90%] px-10 py-5 md:py-0'/>
@@ -61,7 +45,9 @@ const page = () => {
                  <ClientxForm />
             </div>
         </nav>
-        <Client />
+        <div className="w-[95%] md:w-[85%] m-auto">
+            <Client />
+        </div>
     </section>
     </>
     

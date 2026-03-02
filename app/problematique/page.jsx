@@ -20,7 +20,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-     <ServiceHero classe={"prob_bg"} title={<>PROBLÉMATIQUE <br /> DES COÛTS OBSÈQUES</>} subtitle={"Les coûts des obsèques : une réalité souvent sous-estimée"} descrip={"Lorsqu’un décès survient, les proches doivent faire face à une douleur immense… et souvent à des frais imprévus."} btn={false} />
+     <ServiceHero classe={"prob_bg"} title={<>PROBLÉMATIQUE <br /> DES COÛTS OBSÈQUES</>} subtitle={<>Les coûts des obsèques : une <br></br> réalité souvent sous-estimée</>} descrip={"Lorsqu’un décès survient, les proches doivent faire face à une douleur immense… et souvent à des frais imprévus."} btn={false} />
        <section className='service_shape h-250 md:h-300 flex justify-center items-center relative z-10 bottom-40 md:bottom:30 xl:bottom-60 px-4 md:px-15 xl:px-32'>
              <nav className='grid grid-cols-1 md:grid-cols-2 gap-2 h-[70%] lg:h-[45%]'>
                  <div className='flex flex-col gap-2 md:gap-8 justify-center'> 
@@ -36,7 +36,7 @@ const page = () => {
                     <p className='text-[18px] w-[90%]'>Ces montants doivent souvent être avancés très rapidement par les proches.</p>
                  </div>
                  <div className='w-full h-full graph rounded-2xl' />
-                 <div className='py-5 md:py-12 col-span-2 flex justify-center items-center px-1 md:px-20 xl:px-32'>
+                 <div className='py-5 lg:py-0 xl:py-12 col-span-2 flex justify-center items-center px-1 md:px-20 xl:px-32'>
                    <div className='space-y-3'>
                         <p>En 1978, les coûts des obsèques étaient évalués à environ <span className='font-bold'>919 €</span>.
                         Tous les 10 ans, nous constatons une augmentation moyenne de <span className='font-bold'>+6,4 % par an</span>.
@@ -54,7 +54,7 @@ const page = () => {
              <section className='h-auto md:h-110 absolute z-10 -bottom-50 left-1/2 -translate-x-1/2 w-[95%] md:w-[85%] xl:w-[75%]'>
               <nav className="grid grid-cols-1 gap-4 h-full relative py-6">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center px-4">
-                    <Image src="/el1.png" alt="btn" width={300} height={100} className="w-full h-auto" />
+                    <Image src="/el1.png" alt="btn" width={300} height={100} className="w-full  h-auto" />
                     <Image src="/el2.png" alt="btn" width={300} height={100} className="w-full h-auto" />
                     <Image src="/el3.png" alt="btn" width={300} height={100} className="w-full h-auto" />
                     <div className="col-span-1 order-3 md:order-2 md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
