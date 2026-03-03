@@ -20,7 +20,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-     <ServiceHero classe={"prob_bg"} title={<>PROBLÉMATIQUE <br /> DES COÛTS OBSÈQUES</>} subtitle={<>Les coûts des obsèques : une <br></br> réalité souvent sous-estimée</>} descrip={"Lorsqu’un décès survient, les proches doivent faire face à une douleur immense… et souvent à des frais imprévus."} btn={false} />
+     <ServiceHero classe={"prob_bg"} title={<>PROBLÉMATIQUE <br /> DES COÛTS OBSÈQUES</>} subtitle={<><p className='text-neutral-600 md:text-black'>Les coûts des obsèques : une <br></br> réalité souvent sous-estimée</p></>} descrip={<><p className='text-neutral-700 md:text-black'>Lorsqu’un décès survient, les proches doivent faire face à une douleur immense… et souvent à des frais imprévus.</p></>} btn={false} />
        <section className='service_shape h-250 md:h-300 flex justify-center items-center relative z-10 bottom-40 md:bottom:30 xl:bottom-60 px-4 md:px-15 xl:px-32'>
              <nav className='grid grid-cols-1 md:grid-cols-2 gap-2 h-[70%] lg:h-[45%]'>
                  <div className='flex flex-col gap-2 md:gap-8 justify-center'> 
@@ -39,12 +39,12 @@ const page = () => {
                  <div className='py-5 lg:py-0 xl:py-12 col-span-2 flex justify-center items-center px-1 md:px-20 xl:px-32'>
                    <div className='space-y-3'>
                         <p>En 1978, les coûts des obsèques étaient évalués à environ <span className='font-bold'>919 €</span>.
-                        Tous les 10 ans, nous constatons une augmentation moyenne de <span className='font-bold'>+6,4 % par an</span>.
+                        Tous les 10 ans, nous constatons une augmentation moyenne de <span className='font-bold'><span className='text-red-600'>+6,4 %</span> par an</span>.
                         </p>
                         <ul className='list-disc pl-2 md:pl-9'>
-                            <li>En <span className='font-bold'>1988</span>, les coûts sont passés à <span className='font-bold'>1 819 € (+98 %)</span></li>
-                            <li>En <span className='font-bold'>1998</span>, les coûts sont passés à <span className='font-bold'>2 495 € (+37 %)</span></li>
-                            <li>En <span className='font-bold'>2008</span>, les coûts sont passés à <span className='font-bold'>3 915 € (+57 %)</span></li>
+                            <li>En <span className='font-bold'>1988</span>, les coûts sont passés à <span className='font-bold'>1 819 € (<span className='text-red-600'>+98 %</span>)</span></li>
+                            <li>En <span className='font-bold'>1998</span>, les coûts sont passés à <span className='font-bold'>2 495 € (<span className='text-red-600'>+37 %</span>)</span></li>
+                            <li>En <span className='font-bold'>2008</span>, les coûts sont passés à <span className='font-bold'>3 915 € (<span className='text-red-600'>+57 %</span>)</span></li>
                         </ul>
                         <p>Soit une moyenne d’environ <span className='font-bold'>+64 % tous les 10 ans</span>, correspondant à <span className='font-bold'>+6,4 % par an</span>.</p>
                         <p><span className='font-bold'>Si cette tendance se poursuit</span>, les coûts des obsèques en <span className='font-bold'>2038</span> seront estimés entre <span className='font-bold'>12 000 € et 21 000 €</span></p>
@@ -112,12 +112,21 @@ const page = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-3 py-4 justify-items-center'>
                     <Image src={"/prob_pic2.png"} alt='btn' width={200} height={150} className='w-70'/> 
-                    <div className='w-full h-full col-span-2 flex flex-col items-center gap-8'>
-                        <p> Avez-vous déjà souscrit un contrat d’assurance décès ou une assistance obsèques ? </p>
-                        <p>Il est important de savoir que rien ne garantit que votre capital décès sera indexé automatiquement chaque année et lorsque c'est la cas, rien n'est indiquer sur le contrat que ce versement se fera chaque année et jusqu'au terme du contrat</p>
-                        <p>Par conséquent, puisque les coûts des obsèques après des années auront encore augmenté, comment allez-vous garantir à vos proches que le capital qui sera libéré par la compagnie d'assurance sera suffisant ? IMPOSSIBLE</p>
-                        <p>Par conséquent, vos proches devront payer la différence.</p>
-                    </div>
+                  <div className='w-full h-full col-span-2 flex flex-col items-center md:items-start gap-8'>
+                    <p className="text-lg font-semibold">
+                        Avez-vous déjà souscrit un <span className="text-blue-700">contrat d’assurance décès</span> ou une <span className="text-blue-700">assistance obsèques</span> ?
+                    </p>
+                    <p>
+                        Il est important de savoir que <span className="text-red-600 font-bold text-lg underline">rien ne garantit</span> que votre capital décès sera indexé automatiquement chaque année. Et lorsque c'est le cas, <span className="text-red-600 font-bold italic">rien n'est indiqué</span> sur le contrat prouvant que ce versement se fera chaque année jusqu'au terme.
+                    </p>
+                    <p>
+                        Par conséquent, puisque les coûts des obsèques auront encore augmenté, comment allez-vous garantir à vos proches que le capital libéré sera suffisant ? 
+                        <span className="block mt-2 text-red-600 font-black text-xl">C'EST IMPOSSIBLE !</span>
+                    </p>
+                    <p className="bg-red-50 p-4 border-l-4 border-red-600 italic">
+                        Par conséquent, <span className="text-red-600 font-bold uppercase">vos proches devront payer la différence.</span>
+                    </p>
+                </div>
                 </div>
             </section>
             <section className='h-auto md:h-140 relative mt-10 flex justify-center'>
