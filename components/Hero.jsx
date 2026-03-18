@@ -11,7 +11,7 @@ const Hero = () => {
         <p className='text-white/50 text-[16px] md:text-[20px] uppercase font-light'>Assistance obsèques et protection financière en cas de maladie grave ou de décès. Sans pression. Sans jargon. Avec un accompagnement humain.</p>
         <Link href={"/contact"} className='hover2 w-75 h-14 rounded-full bg-white font-bold flex justify-center items-center'>Vérifier mon éligibilité</Link>
         <Link href={"/contact"} className='hover2 w-100 h-14 rounded-full bg-white font-bold flex justify-center items-center'>Parler à un courtier d’assurance</Link>
-        <p className='uppercase text-white/60 text-[12px] md:text-[14px] w-full md:w-[70%]'>Inscrivez-vous en ligne en quelques secondes et protégez l’avenir de votre famille dès aujourd’hui dans la page d'acceuil apres parler a un courtier</p>
+        <p className='uppercase text-white/60 text-[12px] md:text-[14px] w-full md:w-[70%]'>Inscrivez-vous en ligne en quelques secondes et protégez l'avenir de votre famille dès aujourd'hui.</p>
       </div>
     </section>
   )

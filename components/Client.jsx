@@ -5,7 +5,7 @@ const Client = () => {
   return (
     <section className='px-10 md:px-0 lg:px-20 xl:px-0 pt-10 md:pt-20 text-center mb-14 md:mb-20 flex justify-center items-center'>
       <div className='w-[95%] md:w-full'>
-        <h1 className='font-extrabold text-2xl md:text-4xl'>Notre partenaires</h1>
+        <h1 className='font-extrabold text-2xl md:text-4xl'>Notre partenaire</h1>
       <div className='grid grid-cols-1 justify-center items-center place-items-center gap-10 md:gap-3 mt-8 md:mt-14'>
         <Image src={"/cares.png"} alt='Partenaire' height={142} width={1722} className='w-[150px] md:w-[200px] '/>
         {/* <Image src={"/client2.png"} alt='Axa' height={100} width={150} />

@@ -16,7 +16,7 @@ const About = () => {
             <p className='text-white/45'>Nos solutions sont développées en collaboration avec des partenaires d’assurance reconnus comme AXA et DAS, et reposent sur un accompagnement réel, assuré par un Care Manager dédié.</p>
             <div className='grid grid-cols-1 md:grid-cols-2 text-white mt-5'>
                 <p className='font-extrabold'>Son rôle : écouter, coordonner, soulager. <br />
-                Pour vous puissiez vous concentrer sur l’essentiel.</p>
+                Pour que vous puissiez vous concentrer sur l’essentiel.</p>
                 <p className='border border-white rounded-4xl p-4 mt-2 md:mt-0'>Penser à demain, ce n’est pas être inquiet.
                 C’est être responsable envers ceux que l’on aime</p>
             </div>
