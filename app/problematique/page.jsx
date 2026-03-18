@@ -54,7 +54,7 @@ const page = () => {
              <section className='h-auto md:h-110 absolute z-10 -bottom-50 left-1/2 -translate-x-1/2 w-[95%] md:w-[85%] xl:w-[75%]'>
               <nav className="grid grid-cols-1 gap-4 h-full relative py-6">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center px-4">
-                    <Image src="/el1.png" alt="btn" width={300} height={100} className="w-full  h-auto" />
+                    <Image src="/el1.png" alt="btn" width={300} height={200} className="w-full  h-auto" />
                     <Image src="/el2.png" alt="btn" width={300} height={100} className="w-full h-auto" />
                     <Image src="/el3.png" alt="btn" width={300} height={100} className="w-full h-auto" />
                     <div className="col-span-1 order-3 md:order-2 md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
@@ -94,7 +94,7 @@ const page = () => {
                         </div>
                         <p>Beaucoup de familles ne s’y attendent pas. <br /> Et pourtant, cette situation est fréquente.</p>
                    </div>
-                    <Image src={"/prob_pic1.png"} alt='btn' width={200} height={100} className='w-[95%] md:w-[90%] h-full relative left-0 top-3 md:top-0 md:left-20 object-cover bg-center'/> 
+                    <Image src={"/prob_pic1.png"} alt='btn' width={2000} height={2000} className='w-[95%] md:w-[90%] h-full relative left-0 top-3 md:top-0 md:left-20 object-cover bg-center'/> 
                 </nav>
             </section>
             <section className='flex justify-center items-center flex-col gap-5 w-[95%] md:w-[80%] xl:w-[70%] mt-30'>
@@ -143,7 +143,7 @@ const page = () => {
             <section className='flex justify-center items-center flex-col gap-5 w-[95%] md:w-[80%] m-auto mt-10'>
              <h2 className='font-extrabold text-3xl text-[#16553C] text-start uppercase'>Pourquoi anticiper aujourd’hui ?</h2>
               <nav className=' rounded-2xl h-auto w-full mt-10 grid grid-cols-1 gap-3 md:gap-0 md:grid-cols-2 py-10'>
-                    <Image src={"/prob_pic5.png"} alt='btn' width={200} height={100} className='w-[80%] h-full relative left-0 md:left-20 object-cover bg-center'/> 
+                    <Image src={"/prob_pic5.png"} alt='btn' width={1000} height={1000} className='w-[80%] h-full relative left-0 md:left-20 object-cover bg-center'/> 
                    <div className='pl-2 md:pl-10 flex flex-col gap-4 relative'>
                         <h1 className='text-xl '>Espérance de vie en Belgique (projection 2080)</h1>
                         <div className='flex flex-col gap-2 mt-5'>
@@ -173,10 +173,10 @@ const page = () => {
                         <p className='mt-5'>
                             Grâce à notre simulateur gratuit en ligne, vous pouvez découvrir votre tarif  et avancer dans votre demande en toute autonomie, sans intermédiaire
                         </p>
-            <a href="https://cares.innogarant.com/index.php/funeralCares/quotation/index?language=fr&brokernumber=20389" target="_blank"><button className='hover w-62.5 h-14 rounded-full  text-white font-extrabold bg-[#16553C]'>Calculer Ma Prime</button></a>
+            <a href="https://Care.innogarant.com/index.php/funeralCare/quotation/index?language=fr&brokernumber=20389" target="_blank"><button className='hover w-62.5 h-14 rounded-full  text-white font-extrabold bg-[#16553C]'>Calculer Ma Prime</button></a>
                         
                    </div>
-                    <Image src={"/prob_pic6.png"} alt='btn' width={200} height={100} className='w-100 h-full rounded-2xl relative mt-4 md:mt-0 left-0 md:left-20 object-cover bg-center'/> 
+                    <Image src={"/prob_pic6.png"} alt='btn' width={1000} height={1000} className='w-100 h-full rounded-2xl relative mt-4 md:mt-0 left-0 md:left-20 object-cover bg-center'/> 
 
                 </nav>
             </section>

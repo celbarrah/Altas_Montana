@@ -23,10 +23,10 @@ const Services = () => {
             </div>
         </nav>
         <nav className='flex flex-col items-center'>
-            <h3 className='h-14 p-2 w-80 md:w-100 flex flex-col justify-center items-center bg-[#E6F1EC] font-extrabold rounded-4xl text-2xl'>Vital Cares <span className='font-medium text-[14px]'>Protection maladies graves</span></h3>
+            <h3 className='h-14 p-2 w-80 md:w-100 flex flex-col justify-center items-center bg-[#E6F1EC] font-extrabold rounded-4xl text-2xl'>Vital Care <span className='font-medium text-[14px]'>Protection maladies graves</span></h3>
             <div className='p-10 item2 h-125 w-90 xl:w-112.5 rounded-4xl flex flex-col justify-between items-center text-start'>
                 <p className='font-bold'>Le cancer ne touche pas qu’une personne. Il touche toute une famille. </p>
-                <p>Vital Cares complète votre protection en cas de maladie grave ou de décès.</p>
+                <p>Vital care complète votre protection en cas de maladie grave ou de décès.</p>
                 <p className='font-bold'>Un soutien financier et humain, destiné :</p>
                 <ul className='list-disc'>
                     <li>aux particuliers</li>

@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Services de Protection Familiale – Assurance Décès Plus",
     description:
-      "Soulagez vos proches avec des solutions simples : Assistance Obsèques et Vital Cares pour les maladies graves.",
+      "Soulagez vos proches avec des solutions simples : Assistance Obsèques et Vital Care pour les maladies graves.",
     url: "https://assurancedecesplus.be/services",
     siteName: "Assurance Décès Plus",
     locale: "fr_BE",
@@ -47,13 +47,13 @@ const page = () => {
             <div className='flex flex-col gap-5 justify-center items-center md:items-start pl-4'> 
                 <div className='flex items-center justify-center md:justify-start text-center md:text-start gap-4 mt-10'>
                   <Image src={"/2.png"} alt='2' width={40} height={40} />
-                  <h1 className='text-3xl font-bold'>VITAL CARES</h1>
+                  <h1 className='text-3xl font-bold'>VITAL CARE</h1>
                 </div>
                 <h2 className='font-extrabold text-2xl text-[#16553C] uppercase text-center md:items-start'>Protection maladies graves</h2>
                 <p>
                   Une maladie grave ne touche jamais une seule personne.
                   Elle impacte toute une famille, émotionnellement et financièrement.
-                  Vital Cares apporte une protection financière et un accompagnement humain dès le premier jour.
+                  Vital Care apporte une protection financière et un accompagnement humain dès le premier jour.
                 </p>
                  <a href="https://wa.me/32492861660" target='_blank'>
                 <Image src={"/whats_btn.png"} alt='btn' width={300} height={100} />

@@ -3,8 +3,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='px-10 flex flex-col items-center gap-9 pb-9 pt-5'>
-        <div className='flex justify-between items-center flex-col md:flex-row gap-6 w-[85%]'>
+    <footer className='px-2 md:px-10 flex flex-col items-center gap-9 pb-9 pt-5 mt-20 md:mt-0'>
+        <div className='flex justify-between items-start md:items-center flex-col md:flex-row gap-6 w-[85%]'>
             <Image src={"/logo2.png"} alt='logo' height={100} width={200} />
              <p>Politique de confidentialité | Mentions légales | Contact <br /> Courtier <span className='font-bold'>Costa Gaspare</span></p>
             <div>
@@ -15,6 +15,9 @@ const Footer = () => {
                 <div className='flex items-center gap-2'>
                     <Image src={"/email.png"} alt='logo' height={20} width={20} />
                     <p className=''><a href="mailto:info@assurancedecesplus.be">info@assurancedecesplus.be</a></p>
+                </div>
+                 <div className='flex items-center gap-2 mt-4'>
+                   <p><span className='font-bold'>Courtier</span> N° FSMA 114.835</p>
                 </div>
             </div>
         </div>
