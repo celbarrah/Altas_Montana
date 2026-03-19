@@ -31,7 +31,7 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <nav className="hidden xl:flex items-center gap-8 col-span-3">
-          <Link href="/" className="border-r border-black/20 pr-3">Acceuil</Link>
+          <Link href="/" className="border-r border-black/20 pr-3">Accueil</Link>
           <Link href="/services" className="border-r border-black/20 pr-3">Services</Link>
           <Link href="/problematique" className="border-r border-black/20 pr-3">Problématiques des coûts obsèques</Link>
           <Link href="/contact" className="border-r border-black/20 pr-3">Contact</Link>
@@ -56,7 +56,7 @@ export default function Header() {
 
             <SheetContent side="right" className="p-6">
               <nav className="flex flex-col gap-6 text-lg">
-                <Link href="/">Acceuil</Link>
+                <Link href="/">Accueil</Link>
                 <Link href="/services">Services</Link>
                 <Link href="/problematique">Problématiques des coûts obsèques</Link>
                 <Link href="/contact">Contact</Link>
