@@ -173,7 +173,7 @@ const page = () => {
                         <p className='mt-5'>
                             Grâce à notre simulateur gratuit en ligne, vous pouvez découvrir votre tarif  et avancer dans votre demande en toute autonomie, sans intermédiaire
                         </p>
-            <a href="https://Care.innogarant.com/index.php/funeralCare/quotation/index?language=fr&brokernumber=20389" target="_blank"><button className='hover w-62.5 h-14 rounded-full  text-white font-extrabold bg-[#16553C]'>Calculer Ma Prime</button></a>
+            <a href="https://cares.innogarant.com/index.php/funeralCares/quotation/index?language=fr&brokernumber=20389" target="_blank"><button className='hover w-62.5 h-14 rounded-full  text-white font-extrabold bg-[#16553C]'>Calculer Ma Prime</button></a>
                         
                    </div>
                     <Image src={"/prob_pic6.png"} alt='btn' width={1000} height={1000} className='w-100 h-full rounded-2xl relative mt-4 md:mt-0 left-0 md:left-20 object-cover bg-center'/> 
